@@ -87,6 +87,9 @@ public class StringDemo {
         String s1 = s.replace("sz", "wh");
         System.out.println(s1);
         // 可以用来做敏感词替换
+
+        /*还有replaceAll方法
+         * publci String replaceAll(String regex,String newStr)*/
     }
 
     public static void splitre() {

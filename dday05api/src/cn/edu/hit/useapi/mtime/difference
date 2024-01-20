@@ -1,0 +1,22 @@
+jdk8前的时间对象：
+    都是可变对象，修改后丢失原来的时间信息
+    线程不安全
+
+jdk8后的时间对象：
+    都是不可变对象，修改后会返回新的事件对象，不会改变原来信息
+    线程安全
+
+    日历类：
+    LocalDate 年月日
+    LocalTime 时分秒
+    LocalDateTime 年月日时分秒
+    日期格式化类：
+    DateTimeFormatter 时间格式解析
+    时间类：
+    Instant 时间戳
+    ZoneId  时区
+    ZoneDateTime 带时区的时间
+    工具类：
+    Period      时间间隔（年月日）
+    Duration    时间间隔（时分秒）
+    ChronoUnit  时间间隔（所有单位）
